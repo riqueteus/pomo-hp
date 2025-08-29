@@ -1,0 +1,39 @@
+.heading {
+  margin: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+  font-family: 'Animales Fantastic', serif;
+  font-size: 5rem;
+  font-weight: bold;
+
+  /* textura + gradiente */
+  background-image: 
+    url('/ouro.jpg'), 
+    linear-gradient(
+      135deg,
+      #e9b54e 0%,
+      #c48323 25%,
+      #a6640e 50%,
+      #fbd876 75%,
+      #a4740c 100%
+    );
+
+  background-size: cover, 300% 300%; /* textura fixa + gradiente animado */
+  background-blend-mode: overlay; /* mistura a textura com o gradiente */
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+  animation: shine 8s ease-in-out infinite;
+}
+
+@keyframes shine {
+  0% { background-position: center, 0% 50%; }
+  50% { background-position: center, 100% 50%; }
+  100% { background-position: center, 0% 50%; }
+}
