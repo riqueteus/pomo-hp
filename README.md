@@ -1,2 +1,2 @@
 # pomo-hp
-Pomodoro com a temática de Harry Potter
+Pomodoro com a temática de Harry Potter ⚡⚡⚡
