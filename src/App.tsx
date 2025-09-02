@@ -3,21 +3,21 @@ import './styles/global.css';
 import { Container } from './components/Container';
 import { Logo } from './components/Logo';
 import { Menu } from './components/Menu';
-import { ContDown } from './components/ContDown';
+import { CountDown } from './components/CountDown';
 
 export function App() {
   return (
     <>
       <Container>
-      <Logo />
+        <Logo />
       </Container>
 
-       <Container>
-      <Menu />
+      <Container>
+        <Menu />
       </Container>
 
-       <Container>
-      <ContDown />
+      <Container>
+        <CountDown />
       </Container>
     </>
   );
