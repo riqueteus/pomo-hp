@@ -1,33 +1,28 @@
 .logo {
-  margin: 3.2rem;
+  margin: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  gap: 1.5rem;
-  
+  flex-direction: column;  
 }
 
 .logoNome {
-  font-family: 'Animales Fantastic', serif;
-  font-size: 4rem;
+  font-family: 'Harry Potter', serif;
+  font-size: 8rem;
   font-weight: bold;
   margin-left: 1.5rem;
 
-  /* textura + gradiente */
-  background-image: 
-    url('/ouro.jpg'), 
-    linear-gradient(
-      135deg,
-      #e9b54e 0%,
-      #c48323 25%,
-      #a6640e 50%,
-      #fbd876 75%,
-      #a4740c 100%
-    );
+  background-image: linear-gradient(
+    140deg,
+    var(--gold-shadow) 0%,
+    var(--gold-bright) 30%,
+    var(--gold-highlight) 60%,
+    var(--gold-deep) 80%,
+    var(--gold-mid) 100%
+  );
 
-  background-size: cover, 300% 300%; /* textura fixa + gradiente animado */
-  background-blend-mode: overlay; /* mistura a textura com o gradiente */
+  background-size: 300% 300%; 
+  background-repeat: no-repeat;
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -35,11 +30,11 @@
 
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 
-  animation: shine 8s ease-in-out infinite;
+  animation: shine 7s ease-in-out infinite;
 }
 
 @keyframes shine {
-  0% { background-position: center, 0% 50%; }
-  50% { background-position: center, 100% 50%; }
-  100% { background-position: center, 0% 50%; }
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }

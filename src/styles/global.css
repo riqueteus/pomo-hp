@@ -22,3 +22,17 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Harry Potter';
+  src: url('/fonts/HARRYP.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inkpot';
+  src: url('/fonts/Inkpot.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

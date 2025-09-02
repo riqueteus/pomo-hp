@@ -9,9 +9,15 @@
   --gray-800: #181f2e;
   --gray-900: #0a0f1a;
 
-  --primary-light: #4de7b7;
-  --primary: #0da170;
-  --primary-dark: #065f46;
+  --gold-shadow:   #502800;
+  --gold-deep:     #583808;
+  --gold-mid:      #907010;
+  --gold-bright:   #F8D000;
+  --gold-highlight:#F8E020;
+
+  --primary-light: #fbd876;
+  --primary: #e9b54e;
+  --primary-dark: #a6640e;
 
   --link-color: #10b981;
   --link-hover: #0b8a60;
